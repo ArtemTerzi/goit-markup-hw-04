@@ -305,7 +305,7 @@ ul {
 }
 
 .footer-soc-link:hover,
-.footer-link:focus {
+.footer-soc-link:focus {
   background-color: var(--accent-color);
 }
 
@@ -548,7 +548,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px 32px;
   width: 170px;
   height: 92px;
   border: 1px solid var(--primary-icon-color);
@@ -564,7 +563,7 @@ ul {
 
 /* ---------------CSS FOR PORTFOLIO-------------- */
 .header-line {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 /* Filter */
